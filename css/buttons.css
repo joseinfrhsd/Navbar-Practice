@@ -1,72 +1,72 @@
 /* 1 */
 /* From Uiverse.io by Praashoo7 */ 
 .main_back {
-    position: absolute;
-    border-radius: 10px;
-    transform: rotate(90deg);
-    width: 11em;
-    height: 11em;
-    background: linear-gradient(270deg, #03a9f4, #cc39a4, #ffb5d2);
-    z-index: -2;
-    box-shadow: inset 0px 0px 180px 5px #ffffff;
-  }
-  
-  .main {
-    display: flex;
-    flex-wrap: wrap;
-    width: 14em;
-    align-items: center;
-    justify-content: center;
-    z-index: -1;
-  }
-  
-  .card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    border-top-left-radius: 10px;
-    background: lightgrey;
-    transition: 0.4s ease-in-out, 0.2s background-color ease-in-out,
-      0.2s background-image ease-in-out;
-    background: rgba(255, 255, 255, 0.596);
-    backdrop-filter: blur(5px);
-    border: 1px solid transparent;
-    -webkit-backdrop-filter: blur(5px);
-  }
-  
-  .card .instagram {
-    opacity: 0;
-    transition: 0.2s ease-in-out;
-    fill: #cc39a4;
-  }
-  
-  .card:nth-child(2) {
-    border-radius: 0px;
-  }
-  
-  .card:nth-child(2) .twitter {
-    opacity: 0;
-    transition: 0.2s ease-in-out;
-    fill: #03a9f4;
-  }
-  
-  .card:nth-child(3) {
-    border-top-right-radius: 10px;
-    border-top-left-radius: 0px;
-  }
-  
-  .card:nth-child(3) .dribble {
-    opacity: 0;
-    transition: 0.2s ease-in-out;
-    fill: #ffb5d2;
-  }
-  
-  .card:nth-child(4) {
-    border-radius: 0px;
-  }
-  
+  position: absolute;
+  border-radius: 10px;
+  transform: rotate(90deg);
+  width: 11em;
+  height: 11em;
+  background: linear-gradient(270deg, #03a9f4, #cc39a4, #ffb5d2);
+  z-index: -2;
+  box-shadow: inset 0px 0px 180px 5px #ffffff;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 14em;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-top-left-radius: 10px;
+  background: lightgrey;
+  transition: 0.4s ease-in-out, 0.2s background-color ease-in-out,
+  0.2s background-image ease-in-out;
+  background: rgba(255, 255, 255, 0.596);
+  backdrop-filter: blur(5px);
+  border: 1px solid transparent;
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.card .instagram {
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+  fill: #cc39a4;
+}
+
+.card:nth-child(2) {
+  border-radius: 0px;
+}
+
+.card:nth-child(2) .twitter {
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+  fill: #03a9f4;
+}
+
+.card:nth-child(3) {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 0px;
+}
+
+.card:nth-child(3) .dribble {
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+  fill: #ffb5d2;
+}
+
+.card:nth-child(4) {
+  border-radius: 0px;
+}
+
   .card:nth-child(4) .codepen {
     opacity: 0;
     transition: 0.2s ease-in-out;
@@ -297,10 +297,10 @@
     letter-spacing: 0.33em;
     z-index: 3;
   }
-
+  
   /* 2 */
   /* From Uiverse.io by cssbuttons-io */ 
-button {
+  button {
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -312,14 +312,14 @@ button {
     padding: 0;
     font-size: inherit;
     font-family: inherit;
-   }
-   
-   button.learn-more {
+  }
+  
+  button.learn-more {
     width: 12rem;
     height: auto;
-   }
-   
-   button.learn-more .circle {
+  }
+  
+  button.learn-more .circle {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: relative;
     display: block;
@@ -328,26 +328,26 @@ button {
     height: 3rem;
     background: #282936;
     border-radius: 1.625rem;
-   }
-   
-   button.learn-more .circle .icon {
+  }
+  
+  button.learn-more .circle .icon {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
     bottom: 0;
     margin: auto;
     background: #fff;
-   }
-   
-   button.learn-more .circle .icon.arrow {
+  }
+  
+  button.learn-more .circle .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     left: 0.625rem;
     width: 1.125rem;
     height: 0.125rem;
     background: none;
-   }
-   
-   button.learn-more .circle .icon.arrow::before {
+  }
+  
+  button.learn-more .circle .icon.arrow::before {
     position: absolute;
     content: "";
     top: -0.29rem;
@@ -357,9 +357,9 @@ button {
     border-top: 0.125rem solid #fff;
     border-right: 0.125rem solid #fff;
     transform: rotate(45deg);
-   }
-   
-   button.learn-more .button-text {
+  }
+  
+  button.learn-more .button-text {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -373,24 +373,24 @@ button {
     line-height: 1.6;
     text-align: center;
     text-transform: uppercase;
-   }
-   
-   button:hover .circle {
+  }
+  
+  button:hover .circle {
     width: 100%;
-   }
-   
-   button:hover .circle .icon.arrow {
+  }
+  
+  button:hover .circle .icon.arrow {
     background: #fff;
     transform: translate(1rem, 0);
-   }
-   
+  }
+  
    button:hover .button-text {
     color: #fff;
-   }
-
-   /* 3 */
-   /* From Uiverse.io by barisdogansutcu */ 
-.batman {
+  }
+  
+  /* 3 */
+  /* From Uiverse.io by barisdogansutcu */ 
+  .batman {
     border: none;
     position: relative;
     width: 200px;
@@ -403,9 +403,9 @@ button {
     cursor: pointer;
     background-color: transparent;
     transform: translateY(8px)
-   }
-   
-   .batman:after {
+  }
+  
+  .batman:after {
     content: '';
     position: absolute;
     left: 0;
@@ -413,13 +413,13 @@ button {
     bottom: 0;
     box-shadow: 0px 0 0 0 white;
     transition: all 2s ease;
-   }
-   
-   .batman:hover:after {
+  }
+  
+  .batman:hover:after {
     box-shadow: 0px -13px 56px 12px #ffffffa6;
-   }
-   
-   .batman span {
+  }
+  
+  .batman span {
     position: absolute;
     width: 100%;
     font-size: 15px;
@@ -431,13 +431,13 @@ button {
     transform: translate(-50%,-50%);
     color: black;
     transition: all 2s ease;
-   }
-   
-   .batman:hover span {
+  }
+  
+  .batman:hover span {
     color: white;
-   }
-   
-   .batman:before {
+  }
+  
+  .batman:before {
     content: '';
     position: absolute;
     width: 0;
@@ -447,10 +447,21 @@ button {
     top: 50%;
     transform: translate(-50%, -50%);
     transition: all 1s ease;
-   }
-   
-   .batman:hover:before {
+  }
+  
+  .batman:hover:before {
     width: 100%;
-   }
-   
-   
+  }
+  .list{
+    position:fixed;
+    bottom:right;
+    right:50px;
+    bottom:50px;
+  }
+  
+  ul{
+    list-style-type: none;
+    margin:0;
+    padding:0%
+  }
+  
